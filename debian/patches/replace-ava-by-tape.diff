@@ -1,0 +1,21 @@
+Description: replace ava by tape
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-10-26
+
+--- a/test.js
++++ b/test.js
+@@ -1,5 +1,5 @@
+-import test from 'ava';
+-import isGeneratorFn from '.';
++const test = require('tape');
++const isGeneratorFn = require('.');
+ 
+ test('main', t => {
+ 	t.true(isGeneratorFn(function * () {}));
+@@ -10,4 +10,5 @@
+ 	t.false(isGeneratorFn(undefined));
+ 	t.false(isGeneratorFn(() => {}));
+ 	t.false(isGeneratorFn(''));
++    t.end();
+ });

@@ -1,0 +1,40 @@
+node-is-generator-fn (2.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-is-generator-fn: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto install
+  * New upstream version 2.1.0
+  * Enable upstream test using tape instead of ava
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 26 Oct 2020 18:09:05 +0100
+
+node-is-generator-fn (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+  * Modernize packaging
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 10 Feb 2018 21:52:03 +0530
+
+node-is-generator-fn (1.0.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #850130)
+
+ -- Aarti Kashyap <kaarti.sr@gmail.com>  Wed, 04 Jan 2017 10:38:53 +0000
